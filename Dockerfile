@@ -1,7 +1,5 @@
 FROM dockerfile/mariadb
 
-RUN sudo service mysql start
-
-CMD ["bash"]
+CMD ["mysqld"]
 
 EXPOSE 3306
