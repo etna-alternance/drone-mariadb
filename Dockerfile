@@ -1,5 +1,3 @@
-FROM dockerfile/mariadb
+FROM mariadb
 
-CMD ["mysqld"]
-
-EXPOSE 3306
+ENV MYSQL_ALLOW_EMPTY_PASSWORD true
